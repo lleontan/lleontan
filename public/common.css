@@ -1,0 +1,160 @@
+.skillList {
+  font-size: 14pt;
+}
+
+.introPicture {
+  width: 16vw;
+  height: 16vw;
+}
+
+ul {
+  list-style: none;
+}
+
+article {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+article>div {
+  margin-left: 10px;
+}
+
+#banner {
+  background-color: #19364F;
+
+  height: 16vh;
+}
+
+h1 {
+  margin: 4px;
+  font-size: 25pt;
+}
+
+a {
+  color: #e8ce9d;
+}
+
+a:visited {
+  color: #e8ce9d;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+#banner {
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vh;
+  padding-right: 2vw;
+  flex-wrap: wrap;
+}
+
+#banner ul {
+  flex-direction: row;
+}
+
+#banner li {
+  margin-left: 4%;
+  font-size: 8vh;
+  list-style: none;
+}
+
+#banner .headerLinksDiv {
+  flex-direction: row;
+  display: flex;
+}
+
+#banner h1 {
+  font-size: 11vh;
+}
+
+#banner a:link {
+  text-decoration: none;
+}
+
+#banner a:visited {
+  text-decoration: none;
+}
+
+#banner a:hover {
+  text-decoration: underline;
+}
+
+#banner a:active {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+body {
+  background-color: #EF4755;
+  color: #fff0c6;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+main {
+  padding: 0vw;
+}
+
+main, #banner, body, article {
+  display: flex;
+}
+
+main, article, body, #titleBackground {
+  flex-direction: column;
+}
+
+main>div {
+  border-radius: 20px;
+  padding: 1px;
+  border-width: 3px;
+  border-collapse: separate;
+  overflow: hidden;
+}
+
+.blackTextBackground {
+  background-color: black;
+  opacity: .90;
+}
+.altTextBackground {
+  background-color: #3a6ee8;
+  opacity: .90;
+}
+
+.emptyBlock5w {
+  flex-basis: 5vw;
+}
+
+.logoDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoDiv div:hover{
+  border-color: blue;
+  background-color: #fc95c2;
+}
+
+.logoDiv div {
+  background-color: #fff0c6;
+  border-radius: 99%;
+  margin-left: 2vw;
+  width: 15vh;
+  height: 14vh;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.logoDiv img {
+  margin-left: 4%;
+  width: 90%;
+  height: 90%;
+}
