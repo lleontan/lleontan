@@ -1,10 +1,10 @@
 .skillList {
-  font-size: 14pt;
+  font-size: 13pt;
 }
 
 .introPicture {
-  width: 16vw;
-  height: 16vw;
+  width: 13vw;
+  height: 13vw;
 }
 
 ul {
@@ -23,13 +23,12 @@ article>div {
 
 #banner {
   background-color: #19364F;
-
-  height: 16vh;
+  height: 18vh;
 }
 
 h1 {
   margin: 4px;
-  font-size: 25pt;
+  font-size: 20pt;
 }
 
 a {
@@ -59,7 +58,7 @@ a:hover {
 
 #banner li {
   margin-left: 4%;
-  font-size: 8vh;
+  font-size: 3vw;
   list-style: none;
 }
 
@@ -69,7 +68,7 @@ a:hover {
 }
 
 #banner h1 {
-  font-size: 11vh;
+  font-size: 9vh;
 }
 
 #banner a:link {
@@ -120,6 +119,10 @@ main>div {
   background-color: black;
   opacity: .90;
 }
+.blackSectionBackground {
+  background-color: black;
+  opacity: 1;
+}
 .altTextBackground {
   background-color: #3a6ee8;
   opacity: .90;
@@ -149,12 +152,16 @@ main>div {
   border-style: solid;
   border-color: black;
   overflow: hidden;
-  display: flex;
-  align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .logoDiv img {
-  margin-left: 4%;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
   width: 90%;
   height: 90%;
 }
