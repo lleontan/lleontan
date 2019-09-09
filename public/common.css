@@ -23,12 +23,11 @@ article>div {
 
 #banner {
   background-color: #19364F;
-  height: 18vh;
 }
 
 h1 {
   margin: 4px;
-  font-size: 20pt;
+  font-size: 10em;
 }
 
 a {
@@ -58,7 +57,7 @@ a:hover {
 
 #banner li {
   margin-left: 4%;
-  font-size: 3vw;
+  font-size: 2em;
   list-style: none;
 }
 
@@ -68,7 +67,7 @@ a:hover {
 }
 
 #banner h1 {
-  font-size: 9vh;
+  font-size: 3em;
 }
 
 #banner a:link {
@@ -146,8 +145,8 @@ main>div {
   background-color: #fff0c6;
   border-radius: 99%;
   margin-left: 2vw;
-  width: 15vh;
-  height: 14vh;
+  width: 11vh;
+  height: 10vh;
   border-width: 5px;
   border-style: solid;
   border-color: black;

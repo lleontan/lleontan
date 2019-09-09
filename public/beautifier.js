@@ -18,6 +18,10 @@
     {
       name:"Other",
       link:"other.html"
+    },
+    {
+      name:"Art",
+      link:"artwork.html"
     }
   ];
 
