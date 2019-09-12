@@ -1,10 +1,20 @@
 /*This file makes images collapsable and expandable on click*/
 
 const ARTWORK = [{
-    src: "femaleFigure.png",
+    src: "testWoman.png",
     altText: "A generic female character.",
     description:"A female character made without sculpting."
   },
+  {
+      src: "testHeadBust.png",
+      altText: "A generic female character.",
+      description:"Head closeup"
+    },
+    {
+        src: "texturingWorkflow.jpeg",
+        altText: "A generic female character's texturing.",
+        description:"Hair ring shader. White emission bands based on camera Z."
+      },
   {
     src: "rifle.jpeg",
     altText: "Rifle based off of a m1 garand.",
