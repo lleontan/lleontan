@@ -40,6 +40,7 @@ let drawImages = function () {
   for (imageData of ARTWORK) {
     try {
       let imageDiv = document.createElement("div");
+      imageDiv.className="artDiv";
       let image = document.createElement("img");
       image.setAttribute('src', imageData.src);
       image.setAttribute('title', imageData.altText);
