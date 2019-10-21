@@ -23,11 +23,12 @@ article>div {
 
 #banner {
   background-color: #19364F;
+  flex-direction: row;
 }
 
 h1 {
-  margin: 4px;
-  font-size: 10em;
+  margin: 3px;
+  font-size: 2em;
 }
 
 a {
@@ -57,7 +58,7 @@ a:hover {
 
 #banner li {
   margin-left: 4%;
-  font-size: 2em;
+  font-size: 1em;
   list-style: none;
 }
 
@@ -66,9 +67,6 @@ a:hover {
   display: flex;
 }
 
-#banner h1 {
-  font-size: 3em;
-}
 
 #banner a:link {
   text-decoration: none;
@@ -144,9 +142,9 @@ main>div {
 .logoDiv div {
   background-color: #fff0c6;
   border-radius: 99%;
-  margin-left: 2vw;
-  width: 11vh;
-  height: 10vh;
+  margin-left: 1vw;
+  width: 1.4em;
+  height: 1.4em;
   border-width: 5px;
   border-style: solid;
   border-color: black;
@@ -163,4 +161,29 @@ main>div {
   margin-top: 5%;
   width: 90%;
   height: 90%;
+}
+@media (min-width:600px) {
+  h1 {
+    margin: 1vh;
+    font-size: 3em;
+  }
+  #banner{
+    flex-direction: row;
+  }
+  #banner li{
+    font-size: 1.4em;
+  }
+  .logoDiv div {
+    width: 3em;
+    height: 3em;
+  }
+}
+@media (min-width:1200px) {
+  #banner li{
+    font-size: 2em;
+  }
+  .logoDiv div {
+    width: 4em;
+    height: 4em;
+  }
 }

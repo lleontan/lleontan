@@ -16,7 +16,7 @@ const ARTWORK = [{
         description:"Hair ring shader. White emission bands based on camera Z."
       },
   {
-    src: "rifle.jpeg",
+    src: "garand.png",
     altText: "Rifle based off of a m1 garand.",
     description:"Rifle based off of a m1 garand."
 
@@ -30,7 +30,11 @@ const ARTWORK = [{
     src: "bow.jpeg",
     altText: "A simple bow themed after a nautilus shell.",
     description:"A simple bow themed after a nautilus shell."
-  }
+  },  {
+      src: "sittingPose.jpg",
+      altText: "Same character, but seated.",
+      description:"Same character, but seated."
+    },
 ];
 let drawImages = function () {
   let largeImageDisplayDiv = document.getElementById("largeImageDisplayDiv");
