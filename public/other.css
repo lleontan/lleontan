@@ -11,4 +11,8 @@ h3{
 article{
   padding-left: 1vw;
   padding-right: 1vw;
+  border-style: hidden;
+}
+p{
+  margin-left: 3vw;
 }

@@ -1,7 +1,10 @@
 .skillList {
   font-size: 13pt;
 }
-
+.fixedSizedDiv{
+  min-width: 18%;
+  display: inherit;
+}
 .introPicture {
   width: 13vw;
   height: 13vw;
@@ -21,10 +24,7 @@ article>div {
   margin-left: 10px;
 }
 
-#banner {
-  background-color: #19364F;
-  flex-direction: row;
-}
+
 
 h1 {
   margin: 3px;
@@ -44,7 +44,8 @@ a:hover {
 }
 
 #banner {
-  height: auto;
+  background-color: #19364F;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 1vh;
@@ -164,7 +165,6 @@ main>div {
 }
 @media (min-width:600px) {
   h1 {
-    margin: 1vh;
     font-size: 3em;
   }
   #banner{
@@ -178,12 +178,27 @@ main>div {
     height: 3em;
   }
 }
+
+#banner,.fixedSizedDiv{
+  min-height: 9vh;
+}
+@media (min-width:800px) {
+  #banner,.fixedSizedDiv{
+    min-height: 11vh;
+  }
+}
 @media (min-width:1200px) {
+  h1 {
+    font-size: 4em;
+  }
   #banner li{
-    font-size: 2em;
+    font-size: 2.5em;
   }
   .logoDiv div {
     width: 4em;
     height: 4em;
+  }
+  #banner,.fixedSizedDiv{
+    min-height: 15.6vh;
   }
 }
